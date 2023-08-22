@@ -1,10 +1,11 @@
 # Instalación de Linux Mint 
-Inicialmente se descargó e instaló una maquina virtual, Virtualbox, por la página oficial de Oracle.Y se descargó de la misma manera Linux Mint Xfce Edition como un .iso.
-Luego, se configuro el Virtualbox, quedando de la siguiente manera:
+
+Como primer paso, se realizó la descarga e instalación de una máquina virtual, Virtualbox, desde el sitio web oficial de Oracle. De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
+Posteriormente, se procedió a configurar el Virtualbox, estableciendo los siguientes parámetros:
 
 imagen
 
-Después de esto se inició el instalador de Linux en la máquina virtual, siguieron los pasos, como fueron, la selección del idioma, ubicación, entre otras especificaciones.Y al finalizar este proceso se reinicio la maquina virtual y ahora con Linux instalado correctamente:
+A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
 
 imagen
 
