@@ -1,4 +1,4 @@
-#¿Por qué usar linux sobre otros sistemas operativos?
+# ¿Por qué usar linux sobre otros sistemas operativos?
 
 Linux es un sistema operativo de código abierto que ofrece varias ventajas sobre otros sistemas operativos, como Windows o Mac OS. Algunas de estas ventajas son:
 
