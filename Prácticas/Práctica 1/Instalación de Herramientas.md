@@ -24,3 +24,14 @@ A continuación, se ejecutó el instalador de Linux en la máquina virtual, sigu
 imagen
 
 Luego, se procedio a instalar Minianaconda y de este modo poder instalar los recursos necesarios para desarrollar el laboratorio de Digital I
+
+# Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
+
+Como se vio en la descripción anterior, sobre la instalación de Linux Mint, empleando una VirtulBox como medio, no se encontraron obstáculos o errores importantes en todo este procedimiento.
+
+Ahora bien, para esta instalación, en un caso particular, se quizo tener Linux particionado en un computador Mac, realizandose los mismos pasos que en el caso de la máquina virtual, pero a diferencia, teniendose ciertos pasos adicionales ya que el hardware iba a ser uno real y no uno virtual. Se requirió una USB de 8GB con el fin de emplearla como una USB booteable y dentro de esta, poder almacenar los archivos necesarios para usar este Pendrive como medio de instalación dentro de la Mac. 
+
+Como pasos adicionales se tuvo que, particionar el disco duro para que en una parte (aproximadamente 40GB) se empleara para todo lo correspondiente al espacio de almacenamiento del sistema operativo Linux Mint y una segunda partición (1GB) para emplearse como Swap y de este modo a la hora de encender el equipo, se pudiera elegir con que sistema operativo arrancar al prenderlo.
+
+Luego de realizar todo el proceso de instalación correspondiente y aparecer los mismos pasos que en el caso de la máquina virtual, se inició el computador con Linux Mint de manera correcta.
+<img src='Img Mac/'
