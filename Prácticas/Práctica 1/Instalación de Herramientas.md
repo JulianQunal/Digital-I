@@ -1,4 +1,4 @@
-# ¿Por qué usar linux sobre otros sistemas operativos?
+# ¿Por qué usar Linux sobre otros sistemas operativos?
  
 Linux es un sistema operativo de código abierto que ofrece varias ventajas sobre otros sistemas operativos, como Windows o Mac OS. Algunas de estas ventajas son:
 
@@ -17,7 +17,7 @@ Linux es un sistema operativo de código abierto que ofrece varias ventajas sobr
 Como primer paso, se realizó la descarga e instalación de una máquina virtual, Virtualbox, desde el sitio web oficial de Oracle. De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
 Posteriormente, se procedió a configurar el Virtualbox, estableciendo los siguientes parámetros:
 
-imagen
+<img src="Prácticas/Práctica 1/Img Instalación/linux mint.jpg" />
 
 A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
 
