@@ -14,10 +14,16 @@ Linux es un sistema operativo de código abierto que ofrece varias ventajas sobr
 
 # Instalación de Linux Mint 
 
-Como primer paso, se realizó la descarga e instalación de una máquina virtual, Virtualbox, desde el sitio web oficial de Oracle. De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
+Como primer paso, se realizó la descarga e instalación de una máquina virtual, Virtualbox, desde el sitio web oficial de Oracle.
+
+<image src='Img Instalación/virtualbox pagina.jpg' width='70%'>
+
+<image src='Img Instalación/virtualboxdescargas.jpg' width='70%'>
+
+De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
 Posteriormente, se procedió a configurar el Virtualbox, estableciendo los siguientes parámetros:
 
-<img src="Prácticas/Práctica 1/Img Instalación/linux mint.jpg" />
+
 
 A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
 
