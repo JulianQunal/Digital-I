@@ -21,8 +21,13 @@ Como primer paso, se realizó la descarga e instalación de una máquina virtual
 <image src='Img Instalación/virtualboxdescargas.jpg' width='70%'>
 
 De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
+
+<image src='Img Instalación/linux mint.jpg' width='70%'>
+<image src='Img Instalación/linux mint descargas.jpg' width='70%'>
+ 
 Posteriormente, se procedió a configurar el Virtualbox, estableciendo los siguientes parámetros:
 
+<image src='Img Instalación/virtual machine resultado.png' width='70%'>
 
 
 A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
