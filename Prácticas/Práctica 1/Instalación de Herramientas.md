@@ -32,7 +32,9 @@ Posteriormente, se procedió a configurar el Virtualbox, estableciendo los sigui
 
 A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
 
-imagen
+<image src='Img Instalación/linux mint boot menu.jpg' width='70%'>
+<image src='Img Instalación/linux mint escritorio.jpg' width='70%'>
+<image src='Img Instalación/linux mint instalador.jpg' width='70%'>
 
 Luego, se procedio a instalar Minianaconda y de este modo poder instalar los recursos necesarios para desarrollar el laboratorio de Digital I
 
