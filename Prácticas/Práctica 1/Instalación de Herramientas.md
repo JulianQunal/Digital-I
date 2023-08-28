@@ -14,11 +14,18 @@ Linux es un sistema operativo de código abierto que ofrece varias ventajas sobr
 
 # Instalación de Linux Mint 
 
+Debido a inconvenientes explicados mas adelante en este README se decidió realizar la insalación de Linux en una maquina virtual.
 Como primer paso, se realizó la descarga e instalación de una máquina virtual, Virtualbox, desde el sitio web oficial de Oracle.
 
 <image src='Img Instalación/virtualbox pagina.jpg' width='70%'>
 
 <image src='Img Instalación/virtualboxdescargas.jpg' width='70%'>
+
+Se ejecutó el instalador de la maquina virtual, la instalación es sencilla: "Next, Next, Install"
+
+<image src='Img Instalación/virtualbox setup.jpg' width='70%'>
+<image src='Img Instalación/virtualbox setup 2.jpg' width='70%'>
+<image src='Img Instalación/vm aplicacion.jpg' width='70%'>
 
 De igual forma, se obtuvo el archivo .iso de Linux Mint Xfce Edition.
 
@@ -29,15 +36,49 @@ Posteriormente, se procedió a configurar el Virtualbox, estableciendo los sigui
 
 <image src='Img Instalación/virtual machine resultado.png' width='70%'>
 
-
 A continuación, se ejecutó el instalador de Linux en la máquina virtual, siguiendo los pasos indicados: selección del idioma, ubicación, entre otras especificaciones. Al finalizar este proceso, se reinició la máquina virtual y se verificó que Linux estuviera instalado correctamente.
 
 <image src='Img Instalación/linux mint boot menu.jpg' width='70%'>
 <image src='Img Instalación/linux mint escritorio.jpg' width='70%'>
 <image src='Img Instalación/linux mint instalador.jpg' width='70%'>
+<image src='Img Instalación/linux mint instalador terminado.jpg' width='70%'>
+ 
+Luego de reiniciar la maquina Linux quedo listo para usarse, e instalar las otra herramientas requeridas
 
-Luego, se procedio a instalar Minianaconda y de este modo poder instalar los recursos necesarios para desarrollar el laboratorio de Digital I
+# Instalación de Miniconda
 
+Usando el navegador Firefox que viene pre-instalado en Linux se buscó el sitio web de Miniconda para instalarlo, se descargó la siguiente versión:
+
+<image src='Img Instalación/miniconda descargas.png' width='70%'>
+
+Esta instalación se debe realizar desde el terminal, como se muestra en la siguiente imagen
+
+<image src='Img Instalación/miniconda instalador.png' width='70%'>
+
+El comando "pwd" sirve para ver la dirección en la que se esta, el comando "ls" muestra las carpetas y archivos en esa dirección, el comando "cd Descargas" sirve para moverse a la carpeta Descargas, ya que esa es la ubicación donde se encuentra el .sh recien descargado.
+
+Ya en la carpeta de descargas se ejectuta el codigo bash Miniconda3 -(version), se puede escribir "bash mini" y presionar la tecla TAB para que el terminal complete la instrucción y se le da Enter para iniciar la instalación.
+
+<image src='Img Instalación/miniconda licencia.png' width='70%'>
+
+Poner en la consola "yes" para aceptar los terminos y condiciones y proceder con la instalación.
+
+<image src='Img Instalación/miniconda ubicacion.png' width='70%'>
+
+Pulsando enter se instala miniconda en la ubicación por defecto.
+
+<image src='Img Instalación/miniconda instalacion terminada.png' width='70%'>
+
+La instalacion esta terminada, poner "yes" en la consola para iniciar miniconda, y luego reiniciar el terminal.
+
+Para comprobar la instalación se pone en la consola "python", y esta debe arrojar la version de python instalada en el miniconda
+
+<image src='Img Instalación/miniconda version python.png' width='70%'>
+
+Para comprovar la version de miniconda poner el codigo "conda":
+
+<image src='Img Instalación/miniconda version.png' width='70%'>
+ 
 # Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
 
 Como se vio en la descripción anterior, sobre la instalación de Linux Mint, empleando una VirtulBox como medio, no se encontraron obstáculos o errores importantes en todo este procedimiento.
