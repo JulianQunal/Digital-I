@@ -49,7 +49,7 @@ Luego de reiniciar la maquina Linux quedo listo para usarse, e instalar las otra
 
 Usando el navegador Firefox que viene pre-instalado en Linux se buscó el sitio web de Miniconda para instalarlo, se descargó la siguiente versión:
 
-<image src='Img Instalación/miniconda descargas.png' width='70%'>
+<image src='Img Instalación/miniconda descarga.png' width='70%'>
 
 Esta instalación se debe realizar desde el terminal, como se muestra en la siguiente imagen
 
