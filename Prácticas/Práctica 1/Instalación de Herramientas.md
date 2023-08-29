@@ -12,6 +12,7 @@ Linux es un sistema operativo de código abierto que ofrece varias ventajas sobr
   
 - Linux es más compatible y versátil que otros sistemas operativos, ya que se puede instalar en una gran variedad de dispositivos, desde ordenadores hasta smartphones, pasando por consolas, servidores o sistemas embebidos.
 
+
 # Instalación de Linux Mint 
 
 Debido a inconvenientes explicados mas adelante en este README se decidió realizar la insalación de Linux en una maquina virtual.
@@ -78,6 +79,17 @@ Para comprobar la instalación se pone en la consola "python", y esta debe arroj
 Para comprovar la version de miniconda poner el codigo "conda":
 
 <image src='Img Instalación/miniconda version.png' width='70%'>
+
+# Instalación de Complementos
+
+Según las instrucciones del profesor se ejecutan los siguientes codigos en el terminal para instalar los complementos
+
+(base) $ conda activate digital  # Activar la variable de entorno de conda denominada digital
+(digital) $ conda install -c conda-forge gtkwave 
+(digital) $ conda install -c conda-forge graphviz
+(digital) $ conda install -c symbiflow netlistsvg
+(digital) $ conda install -c "litex-hub" yosys
+(digital) $ conda install -c "litex-hub" iverilog
  
 # Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
 
