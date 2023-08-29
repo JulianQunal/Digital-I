@@ -84,11 +84,24 @@ Para comprovar la version de miniconda poner el codigo "conda":
 
 Según las instrucciones del profesor se ejecutan los siguientes codigos en el terminal para instalar los complementos
 
+(base) $ conda update conda # Actualizar conda
+
+(base) $ conda create -n digital python=3.10 # Configurar digital como variable de entorno y python3.10
+
 (base) $ conda activate digital  # Activar la variable de entorno de conda denominada digital
+
+(digital) $ python --version # Debe presentarse la version 3.10 para poder continuar
+
+(base) $ conda activate digital  # Activar la variable de entorno de conda denominada digital
+
 (digital) $ conda install -c conda-forge gtkwave 
+
 (digital) $ conda install -c conda-forge graphviz
+
 (digital) $ conda install -c symbiflow netlistsvg
+
 (digital) $ conda install -c "litex-hub" yosys
+
 (digital) $ conda install -c "litex-hub" iverilog
  
 # Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
