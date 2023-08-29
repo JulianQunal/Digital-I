@@ -103,6 +103,8 @@ Según las instrucciones del profesor se ejecutan los siguientes codigos en el t
 (digital) $ conda install -c "litex-hub" yosys
 
 (digital) $ conda install -c "litex-hub" iverilog
+
+Corroborandose su correcta instalación al invocar la lista de paquetes instalados por miniconda
  
 # Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
 
