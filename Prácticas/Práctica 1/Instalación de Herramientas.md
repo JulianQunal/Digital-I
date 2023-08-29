@@ -105,6 +105,11 @@ Según las instrucciones del profesor se ejecutan los siguientes codigos en el t
 (digital) $ conda install -c "litex-hub" iverilog
 
 Corroborandose su correcta instalación al invocar la lista de paquetes instalados por miniconda
+
+<image src='Img Instalación/herramientas.png' width='70%'>
+
+<image src='Img Instalación/herramientas 2.png' width='70%'>
+
  
 # Errores encontrados (Instalación de Linux Mint particionando en un computador con sistema operativo MacOS)
 
