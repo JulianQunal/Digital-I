@@ -1,4 +1,5 @@
 # ¿Por qué usar Linux sobre otros sistemas operativos?
+ **Integrantes:** Andrés Eduardo Guzmán Cuberos, Julián Antonio Quintero Aldana, Juan José Galvis Torres
  
 Linux es un sistema operativo de código abierto que ofrece varias ventajas sobre otros sistemas operativos, como Windows o Mac OS. Algunas de estas ventajas son:
 
