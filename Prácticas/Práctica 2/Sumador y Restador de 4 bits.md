@@ -43,22 +43,23 @@ endmodule
 ```
 module fulladder4( 
 	//Puertos entrada salida
-	input wire [3:0]a,
-	input wire [3:0]b,
-	input wire cin,
-	output wire cout4,
-	output wire [3:0]s
+	input wire [3:0]a,   // Cuatro bits de entrada a
+	input wire [3:0]b,   // Cuatro bits de entrada b
+	input wire cin,      // Entrada de acarreo de entrada
+	output wire cout4,   // Salida de acarreo de salida
+	output wire [3:0]s   // Cuatro bits de salida s
 );
-	//Nombre a los cables que unen los modulos
+	//Nombre a los cables que unen los módulos
 	wire cout1, cout2, cout3;
 
-	//Declarar submodulos
+	//Declarar submódulos
 	//fulladder(b,a,ci,co,s)
-	fulladder fa0 (b[0], a[0], cin, cout1, s[0]);
-	fulladder fa1 (b[1], a[1], cout1, cout2, s[1]);
-	fulladder fa2 (b[2], a[2], cout2, cout3, s[2]);
-	fulladder fa3 (b[3], a[3], cout3, cout4, s[3]);
+	fulladder fa0 (b[0], a[0], cin, cout1, s[0]);  // Instancia de sumador completo 0
+	fulladder fa1 (b[1], a[1], cout1, cout2, s[1]); // Instancia de sumador completo 1
+	fulladder fa2 (b[2], a[2], cout2, cout3, s[2]); // Instancia de sumador completo 2
+	fulladder fa3 (b[3], a[3], cout3, cout4, s[3]); // Instancia de sumador completo 3
 endmodule
+
 ```
 ## Restador de 4 bits
 Un restador de 4 bits es un componente electrónico que se utiliza para restar dos números binarios de 4 dígitos cada uno. El resultado también es un número binario de 4 dígitos. Es esencial en circuitos digitales para realizar operaciones de resta.
