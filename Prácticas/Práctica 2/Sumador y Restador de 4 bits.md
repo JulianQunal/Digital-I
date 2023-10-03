@@ -99,5 +99,22 @@ end
 
 endmodule
 ```
+### Circuito sumador de 4 bits
+Despues de haber realizado todo el código correspondiente se obtuvo que la configuración que describe las operaciones realizadas para obtener el sumador de 4 bits fue la siguiente:
+![Sumador de 4 bits](https://github.com/JulianQunal/Digital-I/assets/142944413/f9559e04-8ea5-44fe-9315-1ff0499e3dac)
+
+### Simulaciones
+Se realizaron algunas simulaciones con el fin de evaluar el rendimiendo de del código y se obtuvieron los siguientes resultados
+#### Simulación 1
+![Simulación 1 sumador](https://github.com/JulianQunal/Digital-I/assets/142944413/c05d3ffb-a150-4844-a367-da1d8111e3a9)
+#### Simulación 2
+![Simulación 2 sumador](https://github.com/JulianQunal/Digital-I/assets/142944413/e370498d-89e2-4d22-9101-44772ff608bf)
+#### Simulación 3
+![Simulación 3 sumador](https://github.com/JulianQunal/Digital-I/assets/142944413/66f63066-eba9-4b96-b173-a6bad170bee8)
+
+
+
+
+
 ## Restador de 4 bits
 Un restador de 4 bits es un componente electrónico que se utiliza para restar dos números binarios de 4 dígitos cada uno. El resultado también es un número binario de 4 dígitos. Es esencial en circuitos digitales para realizar operaciones de resta.
