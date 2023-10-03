@@ -197,3 +197,11 @@ end
 endmodule
 
 ```
+### Circuito restador de 4 bits
+Despues de haber hecho el código que describe el funcionamiento de un restador de 4 bits obtenemos los siguientes montajes:
+#### Circuito restador completo
+![Restador completo](https://github.com/JulianQunal/Digital-I/assets/142944413/5c8ec9c9-df20-4fba-bfdb-88b8c1c05ed9)
+#### Circuito restador de 4 bits
+![Restador de 4 bits](https://github.com/JulianQunal/Digital-I/assets/142944413/a95332e9-833d-44f8-b095-6955e0553652)
+
+
