@@ -204,5 +204,12 @@ Despues de haber hecho el código que describe el funcionamiento de un restador 
 #### Circuito restador de 4 bits
 ![Restador de 4 bits](https://github.com/JulianQunal/Digital-I/assets/142944413/a95332e9-833d-44f8-b095-6955e0553652)
 
-
+### Simulaciones del restador de 4 bits
+Para evaluar el funcionamiento del restador se realizaron simulaciones para las cuales se obtuvieron los siguientes resultados:
+#### Simulación 1
+![Simulación 1 restador](https://github.com/JulianQunal/Digital-I/assets/142944413/6e88e7a3-31ca-47ca-800b-9eaa8617d647)
+#### Simulación 2
+![Simulación 2 restador](https://github.com/JulianQunal/Digital-I/assets/142944413/c5e1bf5f-7d66-4760-8205-648de8ee5d51)
+#### Simulación 3
+![Simulación 3 restador](https://github.com/JulianQunal/Digital-I/assets/142944413/604961ca-dba7-4f2f-b6e9-3cd375b80182)
 
