@@ -19,7 +19,7 @@ assign co = a & b; // co es el resultado de a AND b
 endmodule
 ```
 ### Sumador completo
-```
+```systemverilog
 module fulladder (
   // Inputs and output ports; 3 in, 2 out
   input in_b, in_a, in_ci,     // Tres entradas: in_b, in_a, in_ci
@@ -42,7 +42,7 @@ assign out_co = co_s1_to_or | co_s2_to_or; // out_co es la operación OR entre c
 endmodule
 ```
 ### Sumador de 4 bits
-```
+```systemverilog
 module fulladder4( 
 	//Puertos entrada salida
 	input wire [3:0]a,   // Cuatro bits de entrada a
@@ -64,7 +64,7 @@ endmodule
 
 ```
 ### TestBench sumador de 4 bits
-```
+```systemverilog
 module testbech4;
 // Generador de señales (Estímulos)
 reg [8:0] inputs;  // Señal de entrada de 9 bits
@@ -122,7 +122,7 @@ Se realizaron algunas simulaciones con el fin de evaluar el rendimiendo del cód
 Un restador de 4 bits es un componente electrónico que se utiliza para restar dos números binarios de 4 dígitos cada uno. El resultado también es un número binario de 4 dígitos. Es esencial en circuitos digitales para realizar operaciones de resta.
 
 ### Restador completo
-```
+```systemverilog
 module fullsubstract( 
 	//Puertos entrada salida
 	input a, b, ci,    // Tres entradas: a, b y ci (carry-in)
@@ -136,7 +136,7 @@ assign co = (~a&ci)|(~a&b)|(b&ci);  // La salida co se calcula mediante una expr
 endmodule
 ```
 ### Restador de 4 bits
-```
+```systemverilog
 module fullsubstract4 (
 	// Puertos entrada salida
 	input wire [3:0] a,   // Cuatro bits de entrada a
@@ -159,7 +159,7 @@ module fullsubstract4 (
 endmodule
 ```
 ### TestBench restador de 4 bits
-```
+```systemverilog
 module testbech4;
 // Generador de señales (Estímulos)
 // Estimulos
