@@ -106,7 +106,7 @@ Despues de haber realizado todo el código correspondiente se obtuvo que la conf
 ![Sumador de 4 bits](https://github.com/JulianQunal/Digital-I/assets/142944413/f9559e04-8ea5-44fe-9315-1ff0499e3dac)
 
 ### Simulaciones
-Se realizaron algunas simulaciones con el fin de evaluar el rendimiendo de del código y se obtuvieron los siguientes resultados
+Se realizaron algunas simulaciones con el fin de evaluar el rendimiendo del código y se obtuvieron los siguientes resultados
 #### Simulación 1
 ![Simulación 1 sumador](https://github.com/JulianQunal/Digital-I/assets/142944413/c05d3ffb-a150-4844-a367-da1d8111e3a9)
 #### Simulación 2
@@ -203,5 +203,6 @@ Despues de haber hecho el código que describe el funcionamiento de un restador 
 ![Restador completo](https://github.com/JulianQunal/Digital-I/assets/142944413/5c8ec9c9-df20-4fba-bfdb-88b8c1c05ed9)
 #### Circuito restador de 4 bits
 ![Restador de 4 bits](https://github.com/JulianQunal/Digital-I/assets/142944413/a95332e9-833d-44f8-b095-6955e0553652)
+
 
 
