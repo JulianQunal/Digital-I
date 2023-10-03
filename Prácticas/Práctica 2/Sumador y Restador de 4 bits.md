@@ -158,3 +158,42 @@ module fullsubstract4 (
 
 endmodule
 ```
+### TestBench restador de 4 bits
+```
+module testbech4;
+// Generador de señales (Estímulos)
+// Estimulos
+reg [8:0] inputs;  // Señal de entrada de 9 bits
+integer i;  // Variable entera para bucle
+
+initial
+begin 
+	for(i=0; i<256; i=i+1)
+	begin
+		inputs=i;  // Asigna el valor actual de i a la señal de entrada
+		#1;  // Espera 1 unidad de tiempo
+	end
+end
+
+// Cables para conectar a la salida
+wire [4:0] outs;  // Señal de salida de 5 bits
+
+// Instancia del módulo fullsubstract4
+fullsubstract4 dut(
+	.a(inputs[3:0]), .b(inputs[7:4]), .ci(inputs[8]), .r(outs[3:0]),  .co4(outs[4])
+);
+
+// Monitor (Comentado)
+// initial 
+// $monitor("Time: %t, a = %d, b = %d, c = %d, d = %d => x = %d",$time,a,b,c,d,cable_x);
+
+// Configuración de forma de onda
+initial
+begin
+	$dumpfile("top.vcd");  // Define el archivo de forma de onda como "top.vcd"
+	$dumpvars(0, testbech4);  // Define las variables a monitorear
+end
+
+endmodule
+
+```
