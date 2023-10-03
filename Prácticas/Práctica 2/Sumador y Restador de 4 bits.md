@@ -118,3 +118,41 @@ Se realizaron algunas simulaciones con el fin de evaluar el rendimiendo de del c
 
 ## Restador de 4 bits
 Un restador de 4 bits es un componente electrónico que se utiliza para restar dos números binarios de 4 dígitos cada uno. El resultado también es un número binario de 4 dígitos. Es esencial en circuitos digitales para realizar operaciones de resta.
+
+### Restador completo
+```
+module fullsubstract( 
+	//Puertos entrada salida
+	input a, b, ci,    // Tres entradas: a, b y ci (carry-in)
+	output co, r       // Dos salidas: co (carry-out) y r (resultado)
+);
+	
+// Descripción del comportamiento
+assign r = a^(b^ci);  // La salida r se calcula como a XOR (b XOR ci)
+assign co = (~a&ci)|(~a&b)|(b&ci);  // La salida co se calcula mediante una expresión lógica
+
+endmodule
+```
+### Restador de 4 bits
+```
+module fullsubstract4 (
+	// Puertos entrada salida
+	input wire [3:0] a,   // Cuatro bits de entrada a
+	input wire [3:0] b,   // Cuatro bits de entrada b
+	input wire ci,       // Entrada de acarreo de entrada
+	output wire co4,     // Salida de acarreo de salida
+	output wire [3:0] r  // Cuatro bits de salida r
+);
+
+	// Nombre a los cables que unen los módulos
+	wire co1, co2, co3;  // Tres señales de acarreo intermedias
+
+	// Declarar submódulos
+	// fullsubstract(a,b,ci,co,r)
+	fullsubstract fs0 (a[0], b[0], ci, co1,  r[0]);  // Instancia del sustractor completo 0
+	fullsubstract fs1 (a[1], b[1], co1, co2, r[1]);  // Instancia del sustractor completo 1
+	fullsubstract fs2 (a[2], b[2], co2, co3, r[2]);  // Instancia del sustractor completo 2
+	fullsubstract fs3 (a[3], b[3], co3, co4, r[3]);  // Instancia del sustractor completo 3
+
+endmodule
+```
