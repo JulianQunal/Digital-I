@@ -5,7 +5,7 @@
 ## Sumador de 4 bits
 Un sumador de 4 bits es un componente electrónico que se utiliza para sumar dos números binarios de 4 dígitos cada uno. El resultado también es un número binario de 4 dígitos. Puede generar un bit extra llamado "acarreo". Este tipo de sumador es fundamental en circuitos digitales para realizar operaciones de adición.
 ### Medio sumador
-```
+```systemverilog
 // Declaración del módulo: Half Adder
 module halfadder (
   input b, a,    // Entradas: a y b
