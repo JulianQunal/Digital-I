@@ -1,4 +1,0 @@
-set_io clk 60
-set_io -pullup yes switch 52 # Switch 2
-set_io servo 11 #Salida de señal que controla el servo
-
