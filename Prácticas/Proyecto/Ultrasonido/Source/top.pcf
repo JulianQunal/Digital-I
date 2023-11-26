@@ -1,0 +1,7 @@
+set_io clk 60
+set_io trig 102
+set_io e 104
+set_io rojo 106
+set_io amarillo 105
+set_io verde 101
+set_io ledx 99
