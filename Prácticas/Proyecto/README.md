@@ -21,6 +21,10 @@ Diseñar un prototipo funcional y energéticamente eficiente para la resolución
 - 2 Salidas:
   * Compuerta (Servomotor): Dispensa o no el alimento acorde al tiempo que se establezca.
   * Indicadores (Leds): Indican la cantidad o el nivel de alimento dentro del recipiente de almacenamiento.
+<p align="center">
+  <img src='Images/RTL Completo.png' width='70%'/>
+</p> 
+ 
 ## Presupuesto:
 Para la realización del proyecto se contempla la siguiente tabla de datos que engloba los gastos que se esperan.
 <image src='Images/Presupuesto.png' width='60%'>
