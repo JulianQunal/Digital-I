@@ -23,3 +23,7 @@ Diseñar un prototipo funcional y energéticamente eficiente para la resolución
   * Indicadores (Leds): Indican la cantidad o el nivel de alimento dentro del recipiente de almacenamiento.
 ## Presupuesto:
 Para la realización del proyecto se contempla la siguiente tabla de datos que engloba los gastos que se esperan.
+<image src='Images/Presupuesto.png' width='60%'>
+## Bibliografía:
+[1] Chacón, P. “Hay 3 millones de perros y gatos abandonados en Colombia: este es el plan que propone la senadora Andrea Padilla para cambiar esta realidad”, infobate. Consultado el 6 de Octubre de 2023. Disponible [en línea] : https://www.infobae.com/colombia/2023/01/31/hay-3-millones-de-perros-y-gatos-abandonados-en-colombia-este-es-el-plan-que-propone-la-senadora-andrea-padilla-para-cambiar-esta-realidad/ 
+[2] Redacción Semana. “Día del Perro Callejero: más de 66.000 caninos deambulan por las calles de Bogotá”, Semana. Consultado el 6 de Octubre de 2023. Disponible [en línea] : https://www.semana.com/nacion/articulo/dia-del-perro-callejero-mas-de-66000-caninos-deambulan-por-las-calles-de-bogota/202306/  
