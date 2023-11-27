@@ -12,7 +12,7 @@ begin
 	if (switch == 1'b0)
 	begin
 		//Se quiere estipular un angulo de inclinación de 0 grados
-		//100 us = 10 kHz , 25MHz / 10 kHz =  2500
+		//280 us = 3.571 kHz, 25 MHz / 3.571 kHz = 7000
 		angle_out <= 20'd7000;
 	end	
 else
