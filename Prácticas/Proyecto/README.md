@@ -34,6 +34,12 @@ Para la realización del proyecto se contempla la siguiente tabla de datos que e
 ## Implementación del proyecto:
 En el desarrollo de este dispositivo se crearon cada uno de los códigos de los dos periféricos por separado, lograndose el objetivo de sus correctos funcionamientos <strong>(como se puede ver en las carpetas Compuerta y Ultrasonido)</strong> con los parámetros escogidos para que se pudieran acoplar a las dimensiones del recipiente y la base que formaron el dispensador.
 
+## Videos del funcionamiento final:
+### Dispensador
+[![Alt text](https://img.youtube.com/vi/ANsUb3qysKk/0.jpg)](https://www.youtube.com/watch?v=ANsUb3qysKk)
+###
+[![Alt text](https://img.youtube.com/vi/ANsUb3qysKk/0.jpg)](https://www.youtube.com/watch?v=ANsUb3qysKk)
+
 ## Problemas:
 Como problema principal y que no pudo ser solucionado fue a la hora de acoplar los dos periféricos en un solo directorio y que de ese modo el dispositivo pudiera contar con estas dos partes actuando simultaneamente. Pudiendose ver en el RTL las conexiones puestas de forma correcta, además de ser revisado cada uno de los archivos verilog por separado y observandose sus RTL's con conexiones igualmente sin ningún tipo de error. Siendo luego de corregir ciertas sintaxis y errores de interpretación de la FPGA, que ha la hora de compilar y ejecutar el programa el servomotor empezaba a tener problemas, con un pitido indicando una sobreexigencia en su funcionamiento y resultando con la prueba de dos servomotores los cuales resultaron dañados y sin poder ser usados nuevamente. Por esas complicaciones, además de tiempo y costos por nuevos servomotores se consideró realizar la muestra del prototipo con el funcionamiento de cada periférico de forma independiente.
 
