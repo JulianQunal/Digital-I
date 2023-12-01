@@ -13,6 +13,9 @@ Este periférico del dispositivo cuenta con:
 ## Desarrollo
 Para realizar esta parte del dispositivo se investigó acerca del funcionamiento de los sensores ultrasonido, con lo cuál se encontró que el trigger del dispositivo puede actuar de forma correcta con un tiempo de actuación de 20ms, haciendose un contador que se iba aumentando mientras en ese tiempo el ultrasonido actuaba, emitiendo la señal de ultrasonido para que revotara con la superficie que tuviera al frente.
 
+### Video funcionamiento sensor de distancia:
+[![Alt text](https://img.youtube.com/vi/pixdbLauMtA/0.jpg)](https://www.youtube.com/watch?v=pixdbLauMtA)
+
 ## Problemas
 Como inconvenientes generales, fueron poder ajustar las distancias que se quisieran, para que en el recipiente de 40cm de largo se pudiera activar cada uno de los leds, acorde a la distancia del objeto (en nuestro caso del alimento). Finalmente las distancias escogidas fueron:
 - Activación del led verde:  Menos de 10cm.
