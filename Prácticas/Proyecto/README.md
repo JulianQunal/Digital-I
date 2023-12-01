@@ -43,6 +43,9 @@ En el desarrollo de este dispositivo se crearon cada uno de los códigos de los 
 ## Problemas:
 Como problema principal y que no pudo ser solucionado fue a la hora de acoplar los dos periféricos en un solo directorio y que de ese modo el dispositivo pudiera contar con estas dos partes actuando simultaneamente. Pudiendose ver en el RTL las conexiones puestas de forma correcta, además de ser revisado cada uno de los archivos verilog por separado y observandose sus RTL's con conexiones igualmente sin ningún tipo de error. Siendo luego de corregir ciertas sintaxis y errores de interpretación de la FPGA, que ha la hora de compilar y ejecutar el programa el servomotor empezaba a tener problemas, con un pitido indicando una sobreexigencia en su funcionamiento y resultando con la prueba de dos servomotores los cuales resultaron dañados y sin poder ser usados nuevamente. Por esas complicaciones, además de tiempo y costos por nuevos servomotores se consideró realizar la muestra del prototipo con el funcionamiento de cada periférico de forma independiente.
 
+### Video servo dañado
+[![Alt text](https://img.youtube.com/vi/7R-gtyLnzKk/0.jpg)](https://www.youtube.com/watch?v=7R-gtyLnzKk)
+
 ## Conclusiones:
 Gracias al desarrollo de este dispensador automático para comida de perros se pudo afianzar más los conocimientos vistos en la clase teórica y como pudo crearse desde cero un dispositivo con parámetros escogidos por el grupo, igual que el desarrollo y aprendizaje del lenguaje de descripción de hardware Verilog, con el cual se pudo dar vida a este dispositivo.
 
